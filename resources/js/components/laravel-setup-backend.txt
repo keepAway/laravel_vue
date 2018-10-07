@@ -1,0 +1,14 @@
+1. composer create-project --prefer-dist laravel/laravel application_name
+2. edit .env.example into .env
+3. php artisan key:generate
+4. http://localhost/phpmyadmin/ (you need apache2 and mysql installed and started) create new database
+5. add database configuration inside .env file
+6. run inside terminal php artisan migrate, this will create default laravel migrations
+
+----------------------------------------------
+php artisan make:controller ControllerName --resource
+php artisan make:resourece  ResourceName   -> it will create a resource inside Resources folder that will help you handle the data you send to the frontend
+
+Vue.js setup
+1. npm install
+2. npm run watch
